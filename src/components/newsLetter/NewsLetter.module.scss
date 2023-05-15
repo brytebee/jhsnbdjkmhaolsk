@@ -1,0 +1,137 @@
+/* stylelint-disable */
+.news_main_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto 100px auto;
+  width: 944px;
+  height: 394px;
+  background: #f8f8f8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  @media only screen and (max-width: 600px) {
+    width: 295px;
+    height: 127.52px;
+  }
+}
+
+.news_inner_cont {
+  display: flex;
+  width: 80%;
+  margin: 50px auto 50px auto;
+  @media only screen and (max-width: 600px) {
+    // margin: 5px auto 5px auto;
+    margin: 10px;
+    width: 100%;
+  }
+}
+
+.news_and_envelop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 50px;
+  margin: 10% 0;
+  @media only screen and (max-width: 600px) {
+    gap: 5px;
+  }
+}
+
+.img_cont_news {
+  border-radius: 50%;
+  background: #2b5676;
+  width: 180px;
+  height: 180px;
+  margin: 20px;
+  @media only screen and (max-width: 600px) {
+    width: 65.47px;
+    height: 65.47px;
+  }
+}
+
+.img_div_news {
+  position: absolute;
+  margin: -50px 0 0 20px;
+  @media only screen and (max-width: 600px) {
+    width: 61.47px;
+    height: 61.47px;
+    margin: -29px 0 0 1px;
+  }
+}
+
+.news_text_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news_letter_li1 {
+  margin: 0 2px;
+  width: 220px;
+  @media only screen and (max-width: 600px) {
+    width: 150px;
+    font-size: 11px;
+  }
+}
+
+.news_text_cont:nth-child(1) {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #303030;
+  margin-left: -20%;
+  @media only screen and (max-width: 600px) {
+    font-size: 13.1183px;
+    line-height: 134%;
+    margin-left: -10%;
+  }
+}
+
+.input_cont {
+  display: flex;
+}
+
+.input_cont input {
+  height: 40px;
+  width: 200px;
+  @media only screen and (max-width: 600px) {
+    height: 25px;
+    width: 100px;
+  }
+}
+
+.input_cont input::placeholder {
+  padding: 0 0 0 20px;
+  @media only screen and (max-width: 600px) {
+    padding: 0 0 0 5px;
+    font-size: 8px;
+  }
+}
+
+.news_btn {
+  color: #ffff;
+  font-size: 16px;
+  box-sizing: border-box;
+  background: #00235b;
+  padding-top: 8px;
+  width: 120px;
+  margin: 0.5px 0;
+  @media only screen and (max-width: 600px) {
+    width: 50px;
+    font-size: 8px;
+    padding-top: 3px;
+    height: 20px !important;
+    margin: 1% 0;
+    border-radius: 2px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .news_text_cont:nth-child(2) {
+    font-size: 10px !important;
+  }
+}

@@ -1,0 +1,70 @@
+/* stylelint-disable */
+.frequent_cont {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  background: #f9f0f5;
+  box-shadow: 0px 4px 4px rgba(205, 170, 188, 0.25);
+  border-radius: 24px;
+  align-items: center;
+  justify-self: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5% 0;
+  @media only screen and (max-width: 600px) {
+    width: 344px;
+    height: 275.18px;
+  }
+}
+
+.frequent_cont h2 {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 39px;
+  line-height: 134%;
+  color: #303030;
+  @media only screen and (max-width: 600px) {
+    font-size: 18.801px;
+  }
+}
+
+.tab {
+  width: 100%;
+}
+
+.td {
+  border-bottom: 1px solid #a29e9e;
+  text-align: left;
+  padding: 0 30%;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  list-style-type: none;
+  height: 60px;
+  margin: 0 auto;
+  @media only screen and (max-width: 600px) {
+    height: 30px;
+    // padding: 2% 30%;
+  }
+}
+
+.td li {
+  align-items: center;
+  margin-left: 80px;
+  height: 24px;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #303030;
+  @media only screen and (max-width: 600px) {
+    font-size: 7.75032px;
+    line-height: 120%;
+    margin: 15px 0 0 0;
+  }
+}
